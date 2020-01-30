@@ -19,7 +19,11 @@ body {
 .h4, h4,
 .h5, h5,
 .h6, h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #1a1c26;
+}
+
+.darkBlue { 
   color: #1a1c26;
 }
 
@@ -106,6 +110,10 @@ h6 {
   padding-left: 10px;
 }
 
+.noInputOutline:focus {
+  outline: none;
+}
+
 .startTrialInput {
   border-radius: 4px;
   border: 1px solid #C7C7C7;
@@ -131,6 +139,7 @@ h6 {
 
 .popFeaturesContent {
   display:flex;
+  justify-content: space-between;
 }
 
 .d-flex.overlay {
@@ -163,6 +172,10 @@ h6 {
   font-size:30px;
 }
 
+.mainbar .navbar-header {
+  height: 60px;
+}
+
 .main-nav > li:hover {
   background: white;
 }
@@ -173,6 +186,112 @@ h6 {
 
 .nav-item-children .vc_row.row.megamenu-inner-row.bg-white {
   border: none;
+}
+
+.color-orange {
+  background: #FF8730;
+  border-color: #FF8730;
+  color: white;
+}
+
+.color-orange:hover {
+  background: #f07507;
+  border-color: #f07507;
+  color: white;
+}
+
+.iconBoxWrap {
+  justify-content: space-around;
+}
+
+.iconBoxInterior {
+  min-width: 263px;
+}
+
+.iconBoxInterior.red {
+  border-top: 3px solid #F3376B;
+}
+
+.iconBoxInterior.red i, .iconBoxInterior.red a {
+  color: #F3376B;
+}
+
+.iconBoxInterior.red p {
+  margin-bottom:10px;
+}
+
+.iconBoxInterior.red a {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.iconBoxInterior.red a:hover {
+  border-bottom: 2px solid #F3376B;
+  padding-bottom: 5px;
+}
+
+.iconBoxInterior.red a:hover i {
+  position: relative;
+  left:2px;
+}
+
+.iconBoxInterior.orange {
+  border-top: 3px solid #FF8730;
+}
+
+.iconBoxInterior.orange i, .iconBoxInterior.orange a {
+  color: #FF8730;
+}
+
+.iconBoxInterior.orange p {
+  margin-bottom:10px;
+}
+
+.iconBoxInterior.orange a {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.iconBoxInterior.orange a:hover {
+  border-bottom: 2px solid #FF8730;
+  padding-bottom: 5px;
+}
+
+.iconBoxInterior.orange a:hover i {
+  position: relative;
+  left:2px;
+}
+
+.iconBoxInterior.purple {
+  border-top: 3px solid #9159FC;
+}
+
+.iconBoxInterior.purple i, .iconBoxInterior.purple a {
+  color: #9159FC;
+}
+
+.iconBoxInterior.purple p {
+  margin-bottom:10px;
+}
+
+.iconBoxInterior.purple a {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.iconBoxInterior.purple a:hover {
+  border-bottom: 2px solid #9159FC;
+  padding-bottom: 5px;
+}
+
+.iconBoxInterior.purple a:hover i {
+  position: relative;
+  left:2px;
+}
+
+.icon-md-checkmark.green {
+  color: #8BC73D;
+  margin-right:5px;
 }
 
 @media (min-width: 1200px) {

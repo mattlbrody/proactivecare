@@ -163,6 +163,18 @@ h6 {
   font-size:30px;
 }
 
+.main-nav > li:hover {
+  background: white;
+}
+
+.main-nav > li:hover > a {
+  color: #8BC73D;
+}
+
+.nav-item-children .vc_row.row.megamenu-inner-row.bg-white {
+  border: none;
+}
+
 @media (min-width: 1200px) {
   .main-header .is-stuck {
     background: #fff !important;

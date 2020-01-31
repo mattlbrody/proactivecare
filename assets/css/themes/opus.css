@@ -82,6 +82,10 @@ h6 {
   color: rgba(255, 255, 255, 0.85);
 }
 
+.secondarybar .row.secondarybar-row.align-items-center {
+  padding: 0 25px;
+}
+
 .main-footer {
   padding-top: 70px;
   color: rgba(255, 255, 255, 0.6);
@@ -142,6 +146,43 @@ h6 {
   justify-content: space-between;
 }
 
+.popFeaturesContent p {
+  margin-bottom: .5em;
+}
+
+p.seeMore {
+  margin-top:30px;
+}
+
+p.seeMore.purple a {
+  color: #9159FC;
+}
+
+.purple {
+  color: #9159FC;
+}
+
+p.seeMore.orange a {
+  color: #f07507;
+}
+
+.orange {
+  color: #f07507;
+}
+
+p.seeMore.red a {
+  color: #F3376B;
+}
+
+.red {
+  color: #F3376B;
+}
+
+.contents.featuresList {
+  display:flex;
+  align-items: center;
+}
+
 .d-flex.overlay {
   justify-content: center;
   align-items: center;
@@ -163,7 +204,11 @@ h6 {
 }
 
 .lqd-column.pull-up {
-  margin-top: -17%;
+  margin-top: -25%;
+}
+
+.pb-300 {
+  padding-bottom: 300px;
 }
 
 .navDropDownIcon {
@@ -292,6 +337,53 @@ h6 {
 .icon-md-checkmark.green {
   color: #8BC73D;
   margin-right:5px;
+}
+
+.seeMore.purple a:hover {
+  border-bottom: 2px solid #9159FC;
+  padding-bottom: 5px;
+}
+
+.seeMore.purple a:hover i {
+  position: relative;
+  left:2px;
+}
+
+.seeMore.orange a:hover {
+  border-bottom: 2px solid #FF8730;
+  padding-bottom: 5px;
+}
+
+.seeMore.orange a:hover i {
+  position: relative;
+  left:2px;
+}
+
+.seeMore.red a:hover {
+  border-bottom: 2px solid #F3376B;
+  padding-bottom: 5px;
+}
+
+.seeMore.red a:hover i {
+  position: relative;
+  left:2px;
+}
+
+.bg-green {
+  background: #8BC73D;
+  box-shadow: 0 0.125rem 1.5rem 0 rgba(31,33,41,.5);
+}
+
+.orangeBtn {
+  background: #FF8730;
+  color: white;
+  border-color: #FF8730;
+}
+
+.orangeBtn:hover {
+  background: #f07507;
+  border-color: #f07507;
+  color: white;
 }
 
 @media (min-width: 1200px) {

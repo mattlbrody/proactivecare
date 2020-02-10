@@ -150,19 +150,19 @@ h6 {
   margin-bottom: .5em;
 }
 
-p.seeMore {
+.seeMore {
   margin-top:30px;
 }
 
-p.seeMore.purple a {
-  color: #9159FC;
+.seeMore.blue a {
+  color: #356AE6;
 }
 
-.purple {
-  color: #9159FC;
+.blue {
+  color: #356AE6;
 }
 
-p.seeMore.orange a {
+.seeMore.orange a {
   color: #f07507;
 }
 
@@ -170,7 +170,7 @@ p.seeMore.orange a {
   color: #f07507;
 }
 
-p.seeMore.red a {
+.seeMore.red a {
   color: #F3376B;
 }
 
@@ -307,29 +307,29 @@ p.seeMore.red a {
   left:2px;
 }
 
-.iconBoxInterior.purple {
-  border-top: 3px solid #9159FC;
+.iconBoxInterior.blue {
+  border-top: 3px solid #356AE6;
 }
 
-.iconBoxInterior.purple i, .iconBoxInterior.purple a {
-  color: #9159FC;
+.iconBoxInterior.blue i, .iconBoxInterior.blue a {
+  color: #356AE6;
 }
 
-.iconBoxInterior.purple p {
+.iconBoxInterior.blue p {
   margin-bottom:10px;
 }
 
-.iconBoxInterior.purple a {
+.iconBoxInterior.blue a {
   font-size: 16px;
   line-height: 24px;
 }
 
-.iconBoxInterior.purple a:hover {
-  border-bottom: 2px solid #9159FC;
+.iconBoxInterior.blue a:hover {
+  border-bottom: 2px solid #356AE6;
   padding-bottom: 5px;
 }
 
-.iconBoxInterior.purple a:hover i {
+.iconBoxInterior.blue a:hover i {
   position: relative;
   left:2px;
 }
@@ -339,12 +339,12 @@ p.seeMore.red a {
   margin-right:5px;
 }
 
-.seeMore.purple a:hover {
-  border-bottom: 2px solid #9159FC;
+.seeMore.blue a:hover {
+  border-bottom: 2px solid #356AE6;
   padding-bottom: 5px;
 }
 
-.seeMore.purple a:hover i {
+.seeMore.blue a:hover i {
   position: relative;
   left:2px;
 }
@@ -384,6 +384,11 @@ p.seeMore.red a {
   background: #f07507;
   border-color: #f07507;
   color: white;
+}
+
+.height100vh {
+  height: 100vh;
+  padding-top: 150px;
 }
 
 @media (min-width: 1200px) {

@@ -391,6 +391,64 @@ h6 {
   padding-top: 150px;
 }
 
+/* red pricing */
+.btn-red {
+  border: 2px solid #F3376B;
+  margin-bottom: 20px;
+}
+
+.btn-red:hover {
+  background: #F3376B;
+  color: white;
+}
+
+.bg-red {
+  background: #F3376B;
+}
+
+.bg-red h5, .bg-red h5 small {
+  color: white;
+}
+
+/* orange pricing */
+.btn-orange {
+  border: 2px solid #FF8730;
+  margin-bottom: 20px;
+}
+
+.btn-orange:hover {
+  background: #FF8730;
+  color: white;
+}
+
+.bg-orange {
+  background: #FF8730;
+}
+
+.bg-orange h5, .bg-orange h5 small {
+  color: white;
+}
+
+
+/* blue pricing */
+.btn-blue {
+  border: 2px solid #356AE6;
+  margin-bottom: 20px;
+}
+
+.btn-blue:hover {
+  background: #356AE6;
+  color: white;
+}
+
+.bg-blue {
+  background: #356AE6;
+}
+
+.bg-blue h5, .bg-blue h5 small {
+  color: white;
+}
+
 @media (min-width: 1200px) {
   .main-header .is-stuck {
     background: #fff !important;

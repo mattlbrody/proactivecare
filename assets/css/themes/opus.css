@@ -449,6 +449,16 @@ h6 {
   color: white;
 }
 
+/* Other Page Top Section */
+.titlebar.titlebar-sm.scheme-light {
+  background-color: #8BC73D;
+}
+
+/* features page */
+.ld-tm.text-light .ld-overlay {
+  background-color: rgba(139, 199, 61, 0.9);
+}
+
 @media (min-width: 1200px) {
   .main-header .is-stuck {
     background: #fff !important;

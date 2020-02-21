@@ -150,6 +150,24 @@ h6 {
   margin-bottom: .5em;
 }
 
+.titlebar.scheme-light.bggreen {
+  background-color: #8BC73D;
+}
+
+.titlebar-inner.bggreen {
+  background-color: #8BC73D;
+}
+
+.bggreen {
+  background-color: #8BC73D;
+  color: white;
+  height: 300px;
+}
+
+.bggreen .titlebar-col h1 {
+  color: white;
+}
+
 .seeMore {
   margin-top:30px;
 }
@@ -183,7 +201,7 @@ h6 {
   align-items: center;
 }
 
-.container {
+.main-header.main-header-overlay .container.secondarybar-container, .main-header.main-header-overlay .container.mainbar-container {
   max-width: 2000px;
   margin: 0 auto;
   padding: 0;
@@ -471,6 +489,18 @@ h6 {
 
 .iconbox-side .iconbox-icon-wrap {
   margin-right: 0;
+}
+
+.sqs-block.html-block.sqs-block-html {
+  display: none;
+}
+
+.sqs-layout:not(.sqs-editing)>.sqs-row:first-child>[class*=sqs-col]:first-child>.sqs-block:last-child, .sqs-layout:not(.sqs-editing) .sqs-block+.sqs-row .sqs-block:not(.float):last-child {
+  padding: 0;
+}
+
+li>*:first-child::before {
+  white-space: normal;
 }
 
 @media (min-width: 1200px) {
